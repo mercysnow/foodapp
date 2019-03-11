@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-export class ingredients extends Component {
+class Ingredients extends Component {
   render() {
     return (
       <div className="ingredients">
@@ -12,4 +12,4 @@ export class ingredients extends Component {
   }
 }
 
-export default ingredients;
+export default Ingredients;
