@@ -1,16 +1,9 @@
 {
-<<<<<<< HEAD
-  "name": "foodapp",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-=======
   "name": "food-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "firebase": "^5.8.6",
->>>>>>> c087939e11a19bd56dcbb70900a36694be1cd328
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
