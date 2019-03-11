@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import Ingredients from './components/ingredients.js';
+import ShoppingList from './components/shoppingList.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-	<h1>FoodApp</h1> 
-		<Ingredients />      
+		<h1>FoodApp</h1> 
+		  <ShoppingList />      
       </div>
     );
   }
