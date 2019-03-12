@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
+import './shoppingList.css';
 
 
 class ShoppingList extends Component {
   render() {
     return (
-    <div>
-      <h1>ShoppingLIst Segement</h1>
-    </div>
+      <div>
+        <textarea rows="40" cols="40"></textarea>
+      </div>
     )
-
-    }
-     
-   
   }
+}
 
 
 export default ShoppingList;

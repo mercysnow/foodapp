@@ -5,8 +5,8 @@ import './Header.css';
 function Header() {
   return (
       <header className="headStyle">
-        <h1>FoodBook</h1>
-          <div className="LinkPos">
+          <h1 className="H1">FoodBook</h1>
+          <div className="Links">
             <p>|</p><Link className="LinkStyle" to="/">Home</Link><p>|</p>
             <Link className="LinkStyle" to="/recipesPage">Recipes</Link><p>|</p>
             <Link className="LinkStyle" to="/mealPlansPage">MealPLans</Link><p>|</p>
