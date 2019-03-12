@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-class MealPlans extends Component {
+class mealPlansPage extends Component {
   render() {
     return (
       <div>
-        <h1>Meal PLans segement</h1>
+        <h1>MealPLans</h1>
       </div>
     )
   }
 }
 
-export default MealPlans
+export default mealPlansPage

@@ -1,20 +1,17 @@
 import React, { Component } from 'react';
-import ListItem from './ListItem';
-import PropTypes from 'prop-types';
+
 
 class ShoppingList extends Component {
   render() {
-    return this.props.items.map((item)=>(
-      <ListItem key={item.id} item={item}/>
-    ));
+    return (
+    <div>
+      <h1>ShoppingLIst Segement</h1>
+    </div>
+    )
 
     }
      
    
-  }
-
-  ShoppingList.propTypes = {
-    items: PropTypes.array.isRequired
   }
 
 

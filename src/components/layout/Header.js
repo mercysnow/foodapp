@@ -1,16 +1,18 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 function Header() {
   return (
-    <div>
       <header className="headStyle">
         <h1>FoodBook</h1>
-          <div className="LinkOp">
-            <h3>Recipes</h3>|<h3>MealPLans</h3>|<h3>Ingredients</h3>
+          <div className="LinkPos">
+            <p>|</p><Link className="LinkStyle" to="/">Home</Link><p>|</p>
+            <Link className="LinkStyle" to="/recipesPage">Recipes</Link><p>|</p>
+            <Link className="LinkStyle" to="/mealPlansPage">MealPLans</Link><p>|</p>
+            <Link className="LinkStyle" to="/IngredientsPage">Ingredients</Link><p>|</p>
           </div>
       </header>
-    </div>
   )
 }
 

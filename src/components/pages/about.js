@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-function about() {
+function About() {
   return (
     <div>
       <h1>Description of our Application</h1>
@@ -8,5 +8,5 @@ function about() {
   )
 }
 
-export default about
+export default About
 

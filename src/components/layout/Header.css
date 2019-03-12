@@ -1,15 +1,25 @@
-.LinkOp {
+.LinkStyle {
     color: white;
+    font-size: 20px;
+  }
+
+.LinkPos {
     display: flex;
     justify-content: flex-end;
-  }
+    margin-right: 100px;
+}
   
-  .headStyle {
-      background-Color: #004c00;
-      color: #e5c100;
-      border-radius: 5%;
-      text-align: left;
-      padding: 10px;
-      margin: 3px;
-      display: flex-start;
-    }
+.headStyle {
+    background-Color: #004c00;
+    color: #e5c100;
+    border-radius: 5%;
+    text-align: left;
+    padding: 10px;
+    margin: 3px;
+    display: flex-start;
+}
+
+p {
+    color: white;
+    padding:15px;
+}

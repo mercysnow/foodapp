@@ -4,7 +4,7 @@ class Recipes extends Component {
   render() {
     return (
       <div>
-        <h1>Recipes</h1>
+        <h1>Recipes segement</h1>
       </div>
     )
   }
