@@ -1,0 +1,15 @@
+.LinkOp {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .headStyle {
+      background-Color: #004c00;
+      color: #e5c100;
+      border-radius: 5%;
+      text-align: left;
+      padding: 10px;
+      margin: 3px;
+      display: flex-start;
+    }

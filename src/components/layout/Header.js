@@ -1,23 +1,19 @@
 import React from 'react'
+import './Header.css';
 
 function Header() {
   return (
     <div>
-    <header style={headStyle}>
-    <h1>FoodBook</h1>
-    </header>
+      <header className="headStyle">
+        <h1>FoodBook</h1>
+          <div className="LinkOp">
+            <h3>Recipes</h3>|<h3>MealPLans</h3>|<h3>Ingredients</h3>
+          </div>
+      </header>
     </div>
   )
 }
 
 
-const headStyle = {
-    backgroundColor: '#004c00',
-    color: '#e5c100',
-    borderRadius: '5%',
-    textAlign: 'left',
-    padding: '10px',
-    margin: '3px',
-  }
 
 export default Header;
