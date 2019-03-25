@@ -1,0 +1,38 @@
+/*Parent container*/
+.headStyle {
+    height: 100px;
+    background-color: green;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+/*Child container for headStyle*/
+.H1 {
+    font-size: 70px;
+    color: gold;
+    padding: 20px;
+    order: 1;
+    align-self: center;
+}
+/*Child Container of headStyle and also a Parent to LinkStyle Elements*/
+.Links {
+    order:2;
+    align-self: flex-end;
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+.LinkStyle {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+

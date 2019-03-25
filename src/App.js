@@ -4,27 +4,36 @@ import ShoppingList from './components/ShoppingListSegment/shoppingList';
 import MealPlans from './components/mealplansSegment/MealPlans';
 import Recipes from './components/recipesSegment/Recipes';
 import Header from './components/layout/Header';
+import firstHeader from './components/layout/firstHeader';
 import IngredientsPage from './components/pages/IngredientsPage';
 import mealPlansPage from './components/pages/mealPlansPage';
 import recipesPage from './components/pages/recipesPage';
+import SignUpPage from './components/pages/SignUpPage';
+import LoginPage from './components/pages/LoginPage';
 import './App.css';
 
 
 
 class App extends Component {
-
-  render() {
-    return (
-      
-      );
-
-
-    /*return (
+   render(){
+      const sign_up = false;
+   return (
       <Router>
-        <div className='App'>
+      <div>
+      {!sign_up && (<div className='App'>
+         <firstHeader />
+         <Route exact path="/" render={props =>(
+            <div>
+               <h1>Welcome to FoodBook</h1>
+            </div>)}/>
+            <Route path="/SignUpPage" component={SignUpPage} />
+            <Route path="/LoginPage" component={LoginPage} />
+            </div>)}
+
+      {sign_up && (<div className='App'>
           <Header />
           <Route exact path="/" render={props =>(
-            <React.Fragment>
+            <div>
               <div>
                   <h1>Home Page</h1>
               </div>
@@ -37,15 +46,19 @@ class App extends Component {
               <div>
                 <Recipes />
               </div>
-            </React.Fragment>
+            </div>
           )}/>
           <Route path="/IngredientsPage" component={IngredientsPage} />
           <Route path="/mealPlansPage" component={mealPlansPage} />
           <Route path="/recipesPage" component={recipesPage} />
-        </div>
-      </Router>*/
-    
-  }
+        </div>)}
+      </div>
+        </Router>)
+   }
 }
+      
+    
+  
+
 
 export default App;
