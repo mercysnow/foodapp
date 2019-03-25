@@ -12,9 +12,14 @@ import './App.css';
 
 
 class App extends Component {
-  
+
   render() {
     return (
+      
+      );
+
+
+    /*return (
       <Router>
         <div className='App'>
           <Header />
@@ -38,8 +43,8 @@ class App extends Component {
           <Route path="/mealPlansPage" component={mealPlansPage} />
           <Route path="/recipesPage" component={recipesPage} />
         </div>
-      </Router>
-    );
+      </Router>*/
+    
   }
 }
 
